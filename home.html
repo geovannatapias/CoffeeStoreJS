@@ -1,0 +1,128 @@
+<body>
+    <div class="menu-page">
+        <h2 class="titleTop"> MENU CAFÉS </h2>
+
+        <h3 class="titleBottom"> Cafés Quentes </h3>
+        <div class="first">
+            <div class="menu-grid">
+
+                <div class="menu">
+                    <img class="cafe" src="img/cafe1.jpg" width="180">
+                    <div class="menu-info">
+                        <h3> Café Espresso</h3>
+                        <p>Nada mais do que uma única dose de expresso do nosso blend Classico.</p>
+                    </div>
+                    <div class="menu-botao">
+                        <input class="modalButton" type="button" value="Saiba mais"
+                            onclick="openModal('tabelanutricional1')">
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <img class="cafe" src="img/cafe4.jpg" width="200">
+                    <div class="menu-info">
+                        <h3> Americano</h3>
+                        <p>Um café preto longo com 2 doses de expresso para o normal e 3 para o grande.</p>
+                    </div>
+                    <div class="menu-botao">
+                        <input class="modalButton" type="button" value="Saiba mais"
+                            onclick="openModal('tabelanutricional2')">
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <img class="cafe" src="img/cafe2.jpg" width="210">
+                    <div class="menu-info">
+                        <h3> Cortado</h3>
+                        <p>Uma combinação de leite vaporizado e expresso na proporção 2:1, coberto com uma fina camada
+                            de microespuma.</p>
+                    </div>
+                    <div class="menu-botao">
+                        <input class="modalButton" type="button" value="Saiba mais"
+                            onclick="openModal('tabelanutricional3')">
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <img class="cafe" src="img/cafe3.jpg" width="200">
+                    <div class="menu-info">
+                        <h3> Cappuccino</h3>
+                        <p>Espresso com leite vaporizado, microespuma e polvilhado com chocolate em pó.</p>
+                    </div>
+                    <div class="menu-botao">
+                        <input class="modalButton" type="button" value="Saiba mais"
+                            onclick="openModal('tabelanutricional4')">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <h3 class="titleBottom"> Cafés Gelados </h3>
+        <div class="first">
+            <div class="menu-grid">
+
+                <div class="menu">
+                    <img class="cafe" src="img/cafegelado4.jpg" width="200">
+                    <div class="menu-info">
+                        <h3> Americano Gelado</h3>
+                        <p>Espresso duplo e água gelada com gelo.</p>
+                    </div>
+                    <div class="menu-botao">
+                        <input class="modalButton" type="button" value="Saiba mais"
+                            onclick="openModal('tabelanutricional5')">
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <img class="cafe" src="img/cafegelado3.jpg" width="200">
+                    <div class="menu-info">
+                        <h3> Flat White gelado </h3>
+                        <p>Dose dupla de café expresso gelado com leite integral e gelo.</p>
+                    </div>
+                    <div class="menu-botao">
+                        <input class="modalButton" type="button" value="Saiba mais"
+                            onclick="openModal('tabelanutricional6')">
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <img class="cafe" src="img/cafegelado1.jpg" width="200">
+                    <div class="menu-info">
+                        <h3> Cappuccino gelado</h3>
+                        <p>Dose dupla de espresso servido com gelo, coberto com uma espuma de leite leve e aerada.
+                            Polvilhar com chocolate em pó opcional.</p>
+                    </div>
+                    <div class="menu-botao">
+                        <input class="modalButton" type="button" value="Saiba mais"
+                            onclick="openModal('tabelanutricional7')">
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <img class="cafe" src="img/cafegelado2.jpg" width="210">
+                    <div class="menu-info">
+                        <h3>Americano Gelado com Caramelo Salgado</h3>
+                        <p>Americano gelado refrescante com textura cremosa. Levemente adocicado com um toque de
+                            caramelo salgado.</p>
+                    </div>
+                    <div class="menu-botao">
+                        <input class="modalButton" type="button" value="Saiba mais"
+                            onclick="openModal('tabelanutricional8')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalOverlay" class="modal-overlay" style="display:none;">
+        <div id="knowMore" class="modal">
+            <div class="modal-content">
+                <span id="closeModalButton" class="close" onclick="fecharModal()">&times;</span>
+                <h3 id="txt1"></h3>
+                <p id="txt2"></p>
+                <h4 id="txt3"></h4>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>

@@ -1,0 +1,44 @@
+<body>
+  <form id="clienteForm">
+    <div class="menu-page">
+      <h2 class="titleTop"> Formulário de Cadastro </h2>
+    </div>
+    <label for="name"> Nome: *</label>
+    <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required>
+    <br><br>
+
+    <label for="email"> Email: *</label>
+    <input type="text" id="email" name="email" placeholder="Digite seu Email" required>
+    <br><br>
+
+    <label for="cpf"> CPF: *</label>
+    <input type="text" id="cpf" name="cpf" mask="00.000.000-00" placeholder="Digite o número do seu CPF">
+    <br><br>
+
+    <label for="datanascimento"> Data de Nascimento: *</label>
+    <input type="text" id="datanascimento" name="datanascimento" mask="00/00/0000"
+      placeholder="Digite sua data de nascimento" required>
+    <br><br>
+
+    <label for="UF"> UF: *</label>
+    <select type="text" id="uf" name="uf" required>
+      <option value=""> Selecione um estado </option>
+    </select>
+
+    <label for="municipio"> Município: *</label>
+    <select type="text" id="municipio" name="municipio" required>
+      <option value=""> Selecione um municipio </option>
+    </select>
+    <br><br>
+
+   <div class="buttons">
+  <button type="submit" class="save-btn">
+    <span class="material-icons">save</span> Salvar
+  </button>
+
+  <button type="button" id="voltarBtn" class="back-btn">
+    <span class="material-icons">arrow_back</span> Voltar
+  </button>
+</div>
+  </form>
+</body>
